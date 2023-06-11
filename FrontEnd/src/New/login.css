@@ -1,0 +1,80 @@
+/* login.css */
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+.login-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.log-container {
+  text-align: center;
+  padding: 75px;
+  border: 1px solid #ccc; /* Add this line to add a border */
+  border-radius: 4px; /* Add this line to round the corners */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add this line to add a shadow */
+}
+#login-username,#login-password{
+  width: 100%;
+  padding: 12px;
+  padding-left: 35px;
+  border: none solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+  color: #555;
+  box-sizing: border-box;
+}
+
+.fa-solid {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #777;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #555;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  margin-right: 15px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Further reduce space between sections */
+@media screen and (min-width: 768px) {
+  .login-container {
+    gap: 5px;
+  }
+}
+
+.navbar {
+  background-color: #333;
+}

@@ -1,0 +1,43 @@
+.why-choose-us {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #40513B;
+  }
+  
+  .points-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .point {
+    background-color: #9DC08B;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .text{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    font-family: 'Abel', sans-serif;
+    color: white;
+  }
+  .in-title{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #EDF1D6;
+  }

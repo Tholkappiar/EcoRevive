@@ -1,0 +1,95 @@
+.home-logo-name {
+  color: #EDF1D6 !important;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.home-header {
+  background-image: url('./Assets/forest\ 1.jpg');
+  background-size:cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-nav-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 40px;
+}
+
+.home-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-nav-links {
+  display: flex;
+  margin-left: auto;
+}
+
+.home-nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  background-color: transparent !important;
+  border: none;
+  padding: 0;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.home-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: transparent;
+  
+  z-index: 1;
+}
+
+/* Add styles for the scroll effect */
+.home-navbar.scroll {
+  background-color: #000000;
+}
+
+.home-navbar.scroll .home-logo-name {
+  color: #EDF1D6;
+}
+
+.home-navbar.scroll .home-nav-link {
+  color: #ffffff;
+}
+
+.home-content {
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.home-logo-page-name {
+  text-align: left;
+  color: #EDF1D6;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  margin-top: 220px;
+}
+.home-logo-page-name-para{
+  color: white;
+  width: 50%;
+  margin-left: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
